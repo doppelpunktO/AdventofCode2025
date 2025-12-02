@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e274aa-ce93-4bc6-a259-51dcb3511d48" name="Changes" comment="Creating first files">
+    <list default="true" id="79e274aa-ce93-4bc6-a259-51dcb3511d48" name="Changes" comment="Still bugfixing to do, but most of the code is finished">
+      <change afterPath="$PROJECT_DIR$/Day 2/AoC-25-D1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day 2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day 1/AoC-25-D1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/AoC-25-D1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +67,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Day 1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -226,7 +230,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764589662272</updated>
-      <workItem from="1764589663271" duration="13170000" />
+      <workItem from="1764589663271" duration="17438000" />
     </task>
     <task id="LOCAL-00001" summary="Starting">
       <option name="closed" value="true" />
@@ -244,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764590007747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Still bugfixing to do, but most of the code is finished">
+      <option name="closed" value="true" />
+      <created>1764667844785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764667844785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,20 +265,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting" />
     <MESSAGE value="Creating first files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating first files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day 1/AoC-25-D1.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Still bugfixing to do, but most of the code is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still bugfixing to do, but most of the code is finished" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Advent_of_Code_2025$AoC_25_D1.coverage" NAME="AoC-25-D1 Coverage Results" MODIFIED="1764667787512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code_2025$AoC_25_D1.coverage" NAME="AoC-25-D1 Coverage Results" MODIFIED="1764673468573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
   </component>
 </project>

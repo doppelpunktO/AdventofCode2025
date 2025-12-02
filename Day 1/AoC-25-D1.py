@@ -8,12 +8,12 @@ input = open("input.txt", "r").read()
 input = input.split("\n")
 
 zero = 0
-dial = int(input[0].removeprefix("R"))
-for i in range(1, len(input)-1):
+dial = 50
 
+for i in range(len(input)-1):
     curr = LorR(input[i])
+    zero += abs((dial + curr) // 100)
     dial = (dial + curr) % 100
-
 
     if dial == 0:
         zero += 1
