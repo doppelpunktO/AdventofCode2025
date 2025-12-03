@@ -2,7 +2,7 @@
 
 input = open("input.txt").read()
 input = input.split(",")
-sum = 0
+sum1 = 0
 for idrange in input:
     idrange = idrange.split("-")
     for id in range(int(idrange[0]), int(idrange[1]) + 1):
@@ -11,10 +11,19 @@ for idrange in input:
         if length % 2 == 0:
             half = int(length / 2)
             if strid[:half] == strid[half:]:
-                sum += id
-print("Part 1:", sum)
+                sum1 += id
+print("Part 1:", sum1)
 
 # Part 2
 
-import re
+sum2 = 0
+for idrange in input:
+    idrange = idrange.split("-")
+    for id in range(int(idrange[0]), int(idrange[1]) + 1):
+        strid = str(id)
+        c = 0
+        for i in strid:
+            c += 1
+
+print("Part 2:", sum2)
 
