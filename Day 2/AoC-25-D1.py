@@ -1,3 +1,4 @@
+# Advent of Code 2025 - Day 2
 # Part 1 (not very efficient, but it works)
 
 input = open("input.txt").read()
@@ -22,8 +23,9 @@ for idrange in input:
     for id in range(int(idrange[0]), int(idrange[1]) + 1):
         strid = str(id)
         c = 0
-        for i in strid:
-            c += 1
+        length = int(len(strid))
+
+
 
 print("Part 2:", sum2)
 
