@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e274aa-ce93-4bc6-a259-51dcb3511d48" name="Changes" comment="some fixes, i hope">
-      <change afterPath="$PROJECT_DIR$/Day 1/testinput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 3/AoC-25-D3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 3/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day 3/testinput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="79e274aa-ce93-4bc6-a259-51dcb3511d48" name="Changes" comment="finished day 3 part 1, still struggling on day 1 and day 2 part 2 :D">
       <change beforePath="$PROJECT_DIR$/Day 1/AoC-25-D1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 1/AoC-25-D1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day 2/AoC-25-D1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 2/AoC-25-D1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day 3/AoC-25-D3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day 3/AoC-25-D3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764589662272</updated>
       <workItem from="1764589663271" duration="33624000" />
-      <workItem from="1764926077054" duration="3153000" />
+      <workItem from="1764926077054" duration="8383000" />
     </task>
     <task id="LOCAL-00001" summary="Starting">
       <option name="closed" value="true" />
@@ -135,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764750309502</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finished day 3 part 1, still struggling on day 1 and day 2 part 2 :D">
+      <option name="closed" value="true" />
+      <created>1764929265793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764929265793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,18 +150,10 @@
     <MESSAGE value="Still bugfixing to do, but most of the code is finished" />
     <MESSAGE value="started day 2, finished day 1 part 1 as well as day 2 part 1, still on part 2s" />
     <MESSAGE value="some fixes, i hope" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes, i hope" />
+    <MESSAGE value="finished day 3 part 1, still struggling on day 1 and day 2 part 2 :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished day 3 part 1, still struggling on day 1 and day 2 part 2 :D" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day 1/AoC-25-D1.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="banklist" />
@@ -166,7 +161,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Advent_of_Code_2025$AoC_25_D3.coverage" NAME="AoC-25-D3 Coverage Results" MODIFIED="1764928923682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 3" />
-    <SUITE FILE_PATH="coverage/Advent_of_Code_2025$AoC_25_D1.coverage" NAME="AoC-25-D1 Coverage Results" MODIFIED="1764927950389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code_2025$AoC_25_D3.coverage" NAME="AoC-25-D3 Coverage Results" MODIFIED="1764934427100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 3" />
+    <SUITE FILE_PATH="coverage/Advent_of_Code_2025$AoC_25_D1.coverage" NAME="AoC-25-D1 Coverage Results" MODIFIED="1764934798996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day 1" />
   </component>
 </project>

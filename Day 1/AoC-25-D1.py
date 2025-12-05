@@ -34,7 +34,6 @@ for i in range (len(input)-1):
         zero2 += rotation // 100
     elif rotation < 0 and dial != 0:
         zero2 += (rotation // 100) * -1
-
     dial = (dial + curr) % 100
     if dial == 0:
         zero2 += 1

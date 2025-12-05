@@ -41,7 +41,29 @@ print("Part 1:", sum1)
 
 # Part 2
 
-def highestjoltagep2():
+def highestjoltagep2(bank, index, c):
+    # instead of 2 jolts, 12 jolts
+    if c != 0:
+        newbank = bank[index:-c]
+    else:
+        newbank = bank[index:]
+    print(newbank)
+    joltage = max(newbank)
+    newind = newbank.index(joltage)
+    ind = index + newind
+    return joltage, ind
 
+sum2 = 0
+for bank in banklist:
+    joltage = ""
+    ind = 0
+    c = 11
+    for i in range(12):
+        jolt, ind = highestjoltagep2(str(bank), ind,c)
+        joltage += str(jolt)
+        ind += 1
+        c -= 1
+        print(joltage)
+    sum2 += int(joltage)
 
-
+print("Part 2:", sum2)
