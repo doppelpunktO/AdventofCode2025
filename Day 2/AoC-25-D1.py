@@ -6,7 +6,7 @@ input = input.split(",")
 sum1 = 0
 for idrange in input:
     idrange = idrange.split("-")
-    for id in range(int(idrange[0]), int(idrange[1]) + 1):
+    for id in range(int(idrange[0]), int(idrange[1])):
         strid = str(id)
         length = int(len(strid))
         if length % 2 == 0:
@@ -18,14 +18,20 @@ print("Part 1:", sum1)
 # Part 2
 
 sum2 = 0
+
+def findpattern(s):
+    for i in range((len(s) // 2)+1):
+        newstring = s[:i]
+        lenstring = len(newstring)
+        if newstring == s[i+1:lenstring-i+1]:
+            print(newstring, s[i+1:lenstring-i+1])
+
 for idrange in input:
     idrange = idrange.split("-")
     for id in range(int(idrange[0]), int(idrange[1]) + 1):
         strid = str(id)
-        c = 0
-        length = int(len(strid))
-
-
+        if findpattern(strid):
+            sum2 += id
 
 print("Part 2:", sum2)
 
