@@ -16,15 +16,16 @@ for idrange in input:
 print("Part 1:", sum1)
 
 # Part 2
+import textwrap
 
 sum2 = 0
 
 def findpattern(s):
-    for i in range((len(s) // 2)+1):
-        newstring = s[:i]
-        lenstring = len(newstring)
-        if newstring == s[i+1:lenstring-i+1]:
-            print(newstring, s[i+1:lenstring-i+1])
+    for i in range(1, (len(s) // 2)+1):
+        linelist = textwrap.wrap(s, i)
+        if linelist.count(linelist[0]) == len(linelist):
+            return True
+    return False
 
 for idrange in input:
     idrange = idrange.split("-")
